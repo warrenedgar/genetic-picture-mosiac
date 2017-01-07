@@ -114,7 +114,8 @@ class Individual:
         
     """
        This is essentialy breeding the two members of the population togeather.
-       Note that mutation is being called during this operation.         
+       Note this is more complicated then above simply because we must keep
+       track of the unique tiles in every image.
     """
     def crossoverReplace(self, other, reference, change):
         width = len(self.tiles)

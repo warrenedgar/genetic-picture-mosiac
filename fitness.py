@@ -3,9 +3,7 @@ import numpy as np
 import sys, os, math
  
 """
-   Works!
-   be measuring the spread of color it gives a more accurate, and
-   prevents the above problem. 
+   Works! Dumb method of measuring the best fit based of off color and nothing else.
    Code adapted from here ->
    http://code.activestate.com/recipes/577630-comparing-two-images/
 """   
