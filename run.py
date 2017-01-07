@@ -16,9 +16,9 @@ def main(args):
          Run
     """
     if(args[2] == "genetic"):
-        genetic(images, reference, True)
+        genetic(images, reference, False)
     else:
-        basic(images, reference, True)
+        basic(images, reference, False)
     
 """
     The genetic version of the algorithm.
